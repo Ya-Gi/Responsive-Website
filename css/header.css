@@ -1,0 +1,58 @@
+.header {
+    background-color: #eeeeee;
+    height: 100vh;
+    position: relative;
+
+}
+
+.logo {
+    position: fixed;
+    top: 1.8rem;
+    left: 2rem;
+
+}
+.desktop-list {
+    position: fixed; 
+    display: flex;
+    gap: 10px;
+    top: 2.7rem;
+    right: 2rem;
+}
+.desktop-list .dekstop_list_item:hover a {
+      font-weight: 600;
+      text-decoration: underline solid 1px black;
+}
+.header_text {
+    position: absolute;
+    text-align: center;
+    width: 80vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header_text .text_line_1 {
+    margin-bottom: 2rem;
+}
+.header_text .text_line_2 {
+    margin-bottom: 5rem;
+}
+.header_text .work_in_link {
+    text-decoration: underline solid 1px black;
+}
+.foot_row {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 10px;
+    position: absolute;
+    width: 80vw;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+

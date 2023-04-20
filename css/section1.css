@@ -1,0 +1,79 @@
+.border {
+    margin-top: 5px;
+    border-bottom: solid 1px black;
+    margin-bottom: 2rem;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards .card{
+    background-color: #eeeeee;
+    width: 320px;
+    height: 360px;
+    font-size: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(68 68 68 / 0.3);
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.cards .card:hover{
+    border-radius: 0;
+    transform: scale(1.03);
+    transition: all .3s ease-in-out;
+}
+.card .card_image{
+    background-color: aqua;
+    height: 180px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card:hover .card_image{
+    border-radius: 0;
+    transition: all .3s ease-in-out;
+}
+.card .caption {
+    color: #4b4747;
+    padding: 10px;
+}
+.card .c1 {
+   padding: 10px;
+   margin-bottom: 10px;
+}
+.card h4{
+    padding: 0 5px 10px 10px;
+}
+.card a {
+    padding: 0 0 10px 10px;
+    text-decoration: underline;
+ }
+
+.img-1 {
+    background-image: url(../images/1.jpg);
+}
+.img-2 {
+    background-image: url(../images/ampul.jpg);
+}
+
+.img-3 {
+    background-image: url(../images/indir\ \(1\).jpeg);
+}
+.img-4 {
+    background-image: url(../images/ampul.jpg);
+}
+.img-4 {
+    background-image: url(../images/bosch.jpg);
+}
+.img-5 {
+    background-image: url(../images/indir.jpeg);
+}
+.img-6 {
+    background-image: url(../images/ampul.jpg);
+}
+
+

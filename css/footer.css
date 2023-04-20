@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.footer .container {
+    padding: 0 20px;
+}
+.footer .container .footer_row {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.footer .container .footer_row .social {
+    margin: 10px;
+}
+.social_foot {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px
+    ;
+}
